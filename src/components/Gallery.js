@@ -4,17 +4,19 @@ const API_URL = "https://api.unsplash.com/search/photos";
 const ACCESS_KEY = "g2y6RdkJ2pOk3V0Zb-FIXtMq_-TdtPmzTnLpPf5vsco";
 
 function Gallery(){
-    const[images, setImages] = useState([]);
+    const [images, setImages] = useState([]);
     const [query, setQuery] = useState("nature");
+    
     useEffect(() =>{
         fetchImages();
-    },[]);
+    }, []);
 
     const fetchImages = async () => {
-        const response = await fetchImages(`${API_URL}?query=${query}&client_id=${ACCESS_KEY}`);
+        const response = await fetch(`${API_URL}?query=${query}&client_id=${ACCESS_KEY}`);
         const data = await response.json();
         setImages(data.results);
-    }
+    };
+
     return(
         <div>
             <h1>Galería de Imágenes</h1>
