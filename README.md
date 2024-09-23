@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Galería de Imágenes React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Una aplicación de galería de imágenes que utiliza la API de Unsplash para buscar y mostrar imágenes dinámicamente. 🚀
 
-## Available Scripts
+## 🚀 Demo
 
-In the project directory, you can run:
+[Ver demo en Vercel](https://gallery-app-ashen.vercel.app)
 
-### `npm start`
+## 🌟 Capturas de pantalla
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Demo Screenshot](public/Galeria React - Unsplash.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tecnologías utilizadas
 
-### `npm test`
+- React
+- Unsplash API
+- CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Funcionalidades
 
-### `npm run build`
+- Buscar imágenes por palabra clave.
+- Visualización de resultados con fotos relevantes de Unsplash.
+- Diseño responsivo para dispositivos móviles.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 Instalación y uso
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Sigue estos pasos para ejecutar el proyecto localmente:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clona el repositorio:
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repositorio.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Instala las dependencias
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Crea un archivo .env.local en la raíz del proyecto y añade tu clave API de Unsplash:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   REACT_APP_UNSPLASH_KEY=tu_clave_api
 
-## Learn More
+4. Inicia el servidor de desarrollo:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Abre http://localhost:3000 para ver el proyecto en tu navegador.
 
-### Code Splitting
+## 🤝 Contribuciones
+¡Las contribuciones son bienvenidas! Siéntete libre de hacer un fork y enviar pull requests. 🙌
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Haz un fork del proyecto.
+- Crea una rama para tu nueva característica (git checkout -b nueva-caracteristica).
+ - Realiza tus cambios.
+- Envía un pull request.
 
-### Analyzing the Bundle Size
+## 📝 Licencia
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📧 Contacto
+Si tienes alguna duda o sugerencia, no dudes en contactarme:
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Email: pgonzalesmv@gmail.com
+GitHub: [Paul Gonzales] (https://github.com/pgonzalesmv)
