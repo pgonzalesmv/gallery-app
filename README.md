@@ -8,7 +8,8 @@ Una aplicación de galería de imágenes que utiliza la API de Unsplash para bus
 
 ## 🌟 Capturas de pantalla
 
-![Demo Screenshot](public/Galeria React - Unsplash.png)
+![Demo Screenshot](https://raw.githubusercontent.com/pgonzalesmv/gallery-app/main/public/Galeria%20React%20-%20Unsplash.png
+)
 
 ## 🛠️ Tecnologías utilizadas
 
