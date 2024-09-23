@@ -1,6 +1,6 @@
 # Galería de Imágenes React
 
-Una aplicación de galería de imágenes que utiliza la API de Unsplash para buscar y mostrar imágenes dinámicamente. 🚀
+Una aplicación de galería de imágenes que utiliza la API de Unsplash para buscar y mostrar imágenes dinámicamente.
 
 ## 🚀 Demo
 
