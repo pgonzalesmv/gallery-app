@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const API_URL = "https://api.unsplash.com/search/photos";
-const ACCESS_KEY = "g2y6RdkJ2pOk3V0Zb-FIXtMq_-TdtPmzTnLpPf5vsco";
+const ACCESS_KEY = "aqui debes poner tu API KEY de Unsplash";
 
 function Gallery(){
     const [images, setImages] = useState([]);
